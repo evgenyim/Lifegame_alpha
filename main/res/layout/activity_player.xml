@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="24dp"
+        android:text="@string/ch" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="@string/ch1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:textSize="20dp"
+        android:text="@string/ch2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:textSize="20dp"
+        android:text="@string/ch3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:textSize="20dp"
+        android:text="@string/ch4" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:textSize="20dp"
+        android:text="@string/ch5" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:textSize="20dp"
+        android:text="@string/ch6" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:textSize="20dp"
+        android:text="@string/ch7" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:textSize="20dp"
+        android:text="@string/ch8" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:textSize="20dp"
+        android:text="@string/ch9" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:textSize="20dp"
+        android:text="@string/ch10" />
+
+    <TextView
+        android:id="@+id/ch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toEndOf="@+id/textView1"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:textSize="20dp"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/ch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:textSize="20dp"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/ch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textView3"
+        android:textSize="20dp"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/ch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textView4"
+        android:textSize="20dp"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/ch5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textView5"
+        android:textSize="20dp"
+        android:text="0" />
+    <TextView
+        android:id="@+id/ch6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textView6"
+        android:textSize="20dp"
+        android:text="0" />
+    <TextView
+        android:id="@+id/ch7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_toEndOf="@+id/textView7"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textView7"
+        android:textSize="20dp"
+        android:text="0" />
+    <TextView
+        android:id="@+id/ch8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textView8"
+        android:textSize="20dp"
+        android:text="0" />
+    <TextView
+        android:id="@+id/ch9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_toEndOf="@+id/textView9"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textView9"
+        android:textSize="20dp"
+        android:text="0" />
+    <TextView
+        android:id="@+id/ch10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_toEndOf="@+id/textView10"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textView10"
+        android:textSize="20dp"
+        android:text="0" />
+
+</RelativeLayout>

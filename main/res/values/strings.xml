@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">LifeGame</string>
+    <string name="ch">Характеристики</string>
+    <string name="ch1">Стрессоустойчивость</string>
+    <string name="ch2">Выносливость</string>
+    <string name="ch3">Интеллект</string>
+    <string name="ch4">Здоровье</string>
+    <string name="ch5">Ловкость</string>
+    <string name="ch6">Мудрость</string>
+    <string name="ch7">Харизма</string>
+    <string name="ch8">Вкус</string>
+    <string name="ch9">Воля</string>
+    <string name="ch10">Сила</string>
+    <string name="rang">Ранги</string>
+    <string name="rang1">Бег</string>
+    <string name="rang2">Бильярд</string>
+    <string name="rang3">Велосипед</string>
+    <string name="rang4">Готовка</string>
+    <string name="rang5">Жонглирование</string>
+    <string name="rang6">Зарядка</string>
+    <string name="rang7">Муз. инструменте</string>
+    <string name="rang8">Иностранный язык</string>
+    <string name="rang9">Йога</string>
+    <string name="rang10">Контрастный душ</string>
+    <string name="rang11">Отжимания</string>
+    <string name="rang12">Планка</string>
+    <string name="rang13">Подвижный спорт</string>
+    <string name="rang14">Подтягивания</string>
+    <string name="rang15">Пресс</string>
+    <string name="rang16">Приседания</string>
+    <string name="rang17">Программирование</string>
+    <string name="rang18">Классическая музыка</string>
+    <string name="rang19">Посещение лекций</string>
+    <string name="rang20">Рисование</string>
+    <string name="rang21">Рукоделие</string>
+    <string name="rang22">Танцы</string>
+    <string name="rang23">Театр</string>
+
+
+</resources>
