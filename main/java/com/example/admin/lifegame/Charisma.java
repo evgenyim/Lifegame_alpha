@@ -6,7 +6,7 @@ package com.example.admin.lifegame;
 
 public class Charisma {
     static String charisma() {
-        int s = (int) (Math.sqrt(MainMenu.Rangs_count[1])+ Math.sqrt(MainMenu.Rangs_count[6])+Math.sqrt(MainMenu.Rangs_count[11])+Math.sqrt(MainMenu.Rangs_count[13])+Math.sqrt(MainMenu.Rangs_count[16])+Math.sqrt(MainMenu.Rangs_count[24])+Math.sqrt(MainMenu.Rangs_count[26]));
+        int s = (int) (Math.sqrt(MainMenu.Rangs_count[1])+ Math.sqrt(MainMenu.Rangs_count[6])+Math.sqrt(MainMenu.Rangs_count[10])+Math.sqrt(MainMenu.Rangs_count[9])+Math.sqrt(MainMenu.Rangs_count[15])+Math.sqrt(MainMenu.Rangs_count[22]));
         return String.valueOf(s);
     }
 }

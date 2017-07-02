@@ -6,7 +6,7 @@ package com.example.admin.lifegame;
 
 public class Taste {
     static String tsxte() {
-        int s = (int) (Math.sqrt(MainMenu.Rangs_count[19])+ Math.sqrt(MainMenu.Rangs_count[22])+Math.sqrt(MainMenu.Rangs_count[23])+Math.sqrt(MainMenu.Rangs_count[25])+Math.sqrt(MainMenu.Rangs_count[28])+Math.sqrt(MainMenu.Rangs_count[29]));
+        int s = (int) (Math.sqrt(MainMenu.Rangs_count[18])+ Math.sqrt(MainMenu.Rangs_count[20])+Math.sqrt(MainMenu.Rangs_count[21])+Math.sqrt(MainMenu.Rangs_count[23])+Math.sqrt(MainMenu.Rangs_count[12]));
         return String.valueOf(s);
     }
 }

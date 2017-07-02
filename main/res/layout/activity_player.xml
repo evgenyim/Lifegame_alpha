@@ -3,6 +3,7 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/characteristics"
     xmlns:android="http://schemas.android.com/apk/res/android">/>
 
     <TextView
@@ -12,7 +13,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:textSize="24dp"
-        android:text="@string/ch" />
+        android:text="" />
 
     <TextView
         android:id="@+id/textView1"
@@ -24,6 +25,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/ch1" />
 
     <TextView
@@ -33,6 +35,7 @@
         android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/textView1"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/ch2" />
 
     <TextView
@@ -42,6 +45,7 @@
         android:layout_alignLeft="@+id/textView2"
         android:layout_below="@+id/textView2"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/ch3" />
 
     <TextView
@@ -51,6 +55,7 @@
         android:layout_alignLeft="@+id/textView3"
         android:layout_below="@+id/textView3"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/ch4" />
 
     <TextView
@@ -60,6 +65,7 @@
         android:layout_alignLeft="@+id/textView4"
         android:layout_below="@+id/textView4"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/ch5" />
 
     <TextView
@@ -69,6 +75,7 @@
         android:layout_alignLeft="@+id/textView5"
         android:layout_below="@+id/textView5"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/ch6" />
 
     <TextView
@@ -78,6 +85,7 @@
         android:layout_alignLeft="@+id/textView6"
         android:layout_below="@+id/textView6"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/ch7" />
 
     <TextView
@@ -87,6 +95,7 @@
         android:layout_alignLeft="@+id/textView7"
         android:layout_below="@+id/textView7"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/ch8" />
 
     <TextView
@@ -96,6 +105,7 @@
         android:layout_alignLeft="@+id/textView8"
         android:layout_below="@+id/textView8"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/ch9" />
 
     <TextView
@@ -105,6 +115,7 @@
         android:layout_alignLeft="@+id/textView9"
         android:layout_below="@+id/textView9"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/ch10" />
 
     <TextView
@@ -116,6 +127,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView1"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="0" />
 
     <TextView
@@ -127,6 +139,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView2"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="0" />
 
     <TextView
@@ -138,6 +151,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView3"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="0" />
 
     <TextView
@@ -149,6 +163,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView4"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="0" />
 
     <TextView
@@ -160,6 +175,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView5"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="0" />
     <TextView
         android:id="@+id/ch6"
@@ -170,6 +186,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView6"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="0" />
     <TextView
         android:id="@+id/ch7"
@@ -180,6 +197,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView7"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="0" />
     <TextView
         android:id="@+id/ch8"
@@ -190,6 +208,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView8"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="0" />
     <TextView
         android:id="@+id/ch9"
@@ -200,6 +219,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView9"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="0" />
     <TextView
         android:id="@+id/ch10"
@@ -210,6 +230,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView10"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="0" />
 
 </RelativeLayout>

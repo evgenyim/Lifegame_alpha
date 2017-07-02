@@ -1,5 +1,6 @@
 package com.example.admin.lifegame;
 
+
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -23,7 +24,6 @@ public class MainMenu extends AppCompatActivity {
 
     static int [] Rangs_count = new int[31];
 
-
     static SharedPreferences sPref;
 
     @Override
@@ -36,10 +36,10 @@ public class MainMenu extends AppCompatActivity {
         for(int i = 1;i<=30;i++) {
             Rang[i] = "Rang_"+i;
         }
+
         for(int i = 1;i<=30;i++) {
             MainMenu.Rangs_count[i]=MainMenu.sPref.getInt(Rang[i],0);
         }
-
 
         Display display = getWindowManager().getDefaultDisplay();
         Point size = new Point();
@@ -51,23 +51,28 @@ public class MainMenu extends AppCompatActivity {
 
         final Button btn3 = (Button) findViewById(R.id.btn3);
         RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) btn3.getLayoutParams();
-        lp.height = height1/10;
-        lp.width = width1/4;
-        btn3.setX(width1/2 - width1/8);
-        btn3.setY(height1/2+2*height1/10+2*height1/20);
+        lp.height = height1/8;
+        lp.width = width1/3;
+
+        btn3.setX(0);
+        btn3.setY(height1-height1/8);
+        btn3.setBackgroundResource(R.drawable.start_button_background);
+
+        final MainMenu this_ = this;
         final View.OnClickListener listener3 = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish();
+                Intent intent = new Intent(this_,Achievments.class);
+                startActivity(intent);
             }
         };
         btn3.setOnClickListener(listener3);
 
+
         final Button btn1 = (Button) findViewById(R.id.btn1);
         btn1.setLayoutParams(lp);
-        btn1.setX(width1/2 - width1/8);
-        btn1.setY(height1/2);
-        final MainMenu this_ = this;
+        btn1.setX(width1/3);
+        btn1.setY(height1-height1/8*2);
         final View.OnClickListener listener1 = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,12 +80,15 @@ public class MainMenu extends AppCompatActivity {
                 startActivity(intent);
             }
         };
+        btn1.setBackgroundResource(R.drawable.start_button_background);
         btn1.setOnClickListener(listener1);
 
-        final Button btn2 = (Button) findViewById();
+
+        final Button btn2 = (Button) findViewById(R.id.btn2);
         btn2.setLayoutParams(lp);
-        btn2.setX(width1/2 - width1/8);
-        btn2.setY(height1/2+height1/10+height1/20);
+        btn2.setX(width1/3*2);
+        btn2.setY(height1-height1/8*3);
+        btn2.setBackgroundResource(R.drawable.start_button_background);
         final View.OnClickListener listener2 = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -90,12 +98,41 @@ public class MainMenu extends AppCompatActivity {
         };
         btn2.setOnClickListener(listener2);
 
-//        final ImageView title = (ImageView) findViewById(R.id.imageView);
-//        final Bitmap bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.ctm_title);
-//        final Bitmap titles = Bitmap.createScaledBitmap(bitmap,MainMenu.width1/1, MainMenu.height1/2-height1/10, false);
-//        final Drawable title_1 = new BitmapDrawable(getResources(), titles);
-//        title.setX(0);
+        final ImageView image = (ImageView) findViewById(R.id.imageView);
+        final Bitmap bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.menu_hero);
+        final Bitmap images = Bitmap.createScaledBitmap(bitmap,MainMenu.width1/3*2, MainMenu.height1/3, false);
+        final Drawable image_1 = new BitmapDrawable(getResources(), images);
+        image.setX(width1/20);
+        image.setY(height1-height1/8*2-height1/3);
+        image.setBackground(image_1);
+
+        final ImageView title = (ImageView) findViewById(R.id.imageView1);
+        final Bitmap bitmap1 = BitmapFactory.decodeResource(getResources(),R.drawable.lifegame);
+        final Bitmap titles = Bitmap.createScaledBitmap(bitmap1,MainMenu.width1, MainMenu.height1/3, false);
+        final Drawable title_1 = new BitmapDrawable(getResources(), titles);
+        title.setX(0);
+        title.setY(height1/15);
+        title.setBackground(title_1);
+
+        final ImageView polosa = (ImageView) findViewById(R.id.imageView2);
+        final Bitmap bitmap2 = BitmapFactory.decodeResource(getResources(),R.drawable.polosa);
+        final Bitmap polosas = Bitmap.createScaledBitmap(bitmap2,MainMenu.width1/5, MainMenu.height1/8, false);
+        final Drawable polosa_1 = new BitmapDrawable(getResources(), polosas);
+        polosa.setX(width1/20);
+        polosa.setY(height1-height1/8*2-height1/8/4);
+        polosa.setBackground(polosa_1);
+
+
+
+
+
+
+
+
+
 
     }
+
+
 
 }

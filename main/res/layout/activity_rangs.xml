@@ -3,6 +3,7 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:orientation="vertical"
+        android:background="#a6d1cde6"
         xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
@@ -13,7 +14,8 @@
         android:layout_marginLeft="10dp"
         android:textSize="40dp"
         android:text="@string/rang"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/textView1"
@@ -24,7 +26,8 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
         android:textSize="20dp"
-        android:text="@string/rang1" />
+        android:text="@string/rang1"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -33,7 +36,8 @@
         android:layout_below="@+id/textView1"
         android:layout_alignLeft="@+id/textView1"
         android:textSize="20dp"
-        android:text="@string/rang2" />
+        android:text="@string/rang2"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/textView3"
@@ -42,7 +46,8 @@
         android:layout_below="@+id/textView2"
         android:layout_alignLeft="@+id/textView2"
         android:textSize="20dp"
-        android:text="@string/rang3" />
+        android:text="@string/rang3"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/textView4"
@@ -51,6 +56,7 @@
         android:layout_below="@+id/textView3"
         android:layout_alignLeft="@+id/textView3"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/rang4" />
 
     <TextView
@@ -60,6 +66,7 @@
         android:layout_below="@+id/textView4"
         android:layout_alignLeft="@+id/textView4"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/rang5" />
 
     <TextView
@@ -69,6 +76,7 @@
         android:layout_below="@+id/textView5"
         android:layout_alignLeft="@+id/textView5"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/rang6" />
 
     <TextView
@@ -78,6 +86,7 @@
         android:layout_below="@+id/textView6"
         android:layout_alignLeft="@+id/textView6"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/rang7" />
 
     <TextView
@@ -87,6 +96,7 @@
         android:layout_below="@+id/textView7"
         android:layout_alignLeft="@+id/textView6"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/rang8" />
 
     <TextView
@@ -96,6 +106,7 @@
         android:layout_below="@+id/textView8"
         android:layout_alignLeft="@+id/textView8"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/rang9" />
 
     <TextView
@@ -103,6 +114,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView9"
+        android:textColor="#000"
         android:layout_alignLeft="@+id/textView9"
         android:textSize="20dp"
         android:text="@string/rang10" />
@@ -114,6 +126,7 @@
         android:layout_below="@+id/textView10"
         android:layout_alignLeft="@+id/textView10"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/rang11" />
 
     <TextView
@@ -123,6 +136,7 @@
         android:layout_below="@+id/textView11"
         android:layout_alignLeft="@+id/textView11"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/rang12" />
 
     <TextView
@@ -132,6 +146,7 @@
         android:layout_below="@+id/textView12"
         android:layout_alignLeft="@+id/textView12"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/rang13" />
 
     <TextView
@@ -141,16 +156,17 @@
         android:layout_below="@+id/textView13"
         android:layout_alignLeft="@+id/textView13"
         android:textSize="20dp"
+        android:textColor="#000"
         android:text="@string/rang14" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="next"
         android:layout_alignTop="@+id/textView"
         android:layout_toLeftOf="@+id/minus4"
-        android:layout_toStartOf="@+id/minus4" />
+        android:layout_toStartOf="@+id/minus4"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang1"
@@ -161,7 +177,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus1"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang2"
@@ -172,7 +189,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus2"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang3"
@@ -183,7 +201,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus3"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang4"
@@ -194,7 +213,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus4"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang5"
@@ -205,7 +225,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus5"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
 
     <TextView
@@ -217,7 +238,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus6"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang7"
@@ -228,7 +250,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus7"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang8"
@@ -239,7 +262,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus8"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang9"
@@ -250,7 +274,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus9"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang10"
@@ -261,7 +286,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus10"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang11"
@@ -272,7 +298,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus11"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang12"
@@ -283,7 +310,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus12"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang13"
@@ -294,7 +322,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus13"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang14"
@@ -305,7 +334,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus14"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <Button
         android:id="@+id/minus1"
@@ -315,8 +345,7 @@
         android:layout_toRightOf="@+id/textView1"
         android:layout_toEndOf="@+id/textView1"
         android:layout_alignBottom="@+id/textView1"
-        android:text="-"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/plus1"
@@ -326,8 +355,7 @@
         android:layout_toRightOf="@+id/rang1"
         android:layout_toEndOf="@+id/rang1"
         android:layout_alignBottom="@+id/rang1"
-        android:text="+"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/minus2"
@@ -337,8 +365,7 @@
         android:layout_toRightOf="@+id/textView2"
         android:layout_toEndOf="@+id/textView2"
         android:layout_alignBottom="@+id/textView2"
-        android:text="-"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/plus2"
@@ -347,9 +374,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/rang2"
         android:layout_toEndOf="@+id/rang2"
-        android:layout_alignBottom="@+id/rang2"
-        android:text="+"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/rang2" />
 
     <Button
         android:id="@+id/minus3"
@@ -358,9 +383,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView3"
         android:layout_toEndOf="@+id/textView3"
-        android:layout_alignBottom="@+id/textView3"
-        android:text="-"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/textView3" />
 
     <Button
         android:id="@+id/plus3"
@@ -369,9 +392,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/rang3"
         android:layout_toEndOf="@+id/rang3"
-        android:layout_alignBottom="@+id/rang3"
-        android:text="+"
-        android:textSize="10dp" />
+        android:layout_alignBottom="@+id/rang3" />
 
     <Button
         android:id="@+id/minus4"
@@ -380,9 +401,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView4"
         android:layout_toEndOf="@+id/textView4"
-        android:layout_alignBottom="@+id/textView4"
-        android:text="-"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/textView4" />
 
     <Button
         android:id="@+id/plus4"
@@ -391,9 +410,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/rang4"
         android:layout_toEndOf="@+id/rang4"
-        android:layout_alignBottom="@+id/rang4"
-        android:text="+"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/rang4" />
 
     <Button
         android:id="@+id/minus5"
@@ -402,9 +419,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView5"
         android:layout_toEndOf="@+id/textView5"
-        android:layout_alignBottom="@+id/textView5"
-        android:text="-"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/textView5" />
 
     <Button
         android:id="@+id/plus5"
@@ -413,9 +428,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/rang5"
         android:layout_toEndOf="@+id/rang5"
-        android:layout_alignBottom="@+id/rang5"
-        android:text="+"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/rang5" />
 
     <Button
         android:id="@+id/minus6"
@@ -424,9 +437,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView6"
         android:layout_toEndOf="@+id/textView6"
-        android:layout_alignBottom="@+id/textView6"
-        android:text="-"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/textView6" />
 
     <Button
         android:id="@+id/plus6"
@@ -435,9 +446,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/rang6"
         android:layout_toEndOf="@+id/rang6"
-        android:layout_alignBottom="@+id/rang6"
-        android:text="+"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/rang6" />
 
     <Button
         android:id="@+id/minus7"
@@ -446,9 +455,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView7"
         android:layout_toEndOf="@+id/textView7"
-        android:layout_alignBottom="@+id/textView7"
-        android:text="-"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/textView7" />
 
     <Button
         android:id="@+id/plus7"
@@ -457,9 +464,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/rang7"
         android:layout_toEndOf="@+id/rang7"
-        android:layout_alignBottom="@+id/rang7"
-        android:text="+"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/rang7" />
 
     <Button
         android:id="@+id/minus8"
@@ -468,9 +473,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView8"
         android:layout_toEndOf="@+id/textView8"
-        android:layout_alignBottom="@+id/textView8"
-        android:text="-"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/textView8" />
 
     <Button
         android:id="@+id/plus8"
@@ -479,9 +482,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/rang8"
         android:layout_toEndOf="@+id/rang8"
-        android:layout_alignBottom="@+id/rang8"
-        android:text="+"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/rang8" />
 
     <Button
         android:id="@+id/minus9"
@@ -490,9 +491,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView9"
         android:layout_toEndOf="@+id/textView9"
-        android:layout_alignBottom="@+id/textView9"
-        android:text="-"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/textView9" />
 
     <Button
         android:id="@+id/plus9"
@@ -501,9 +500,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/rang9"
         android:layout_toEndOf="@+id/rang9"
-        android:layout_alignBottom="@+id/rang9"
-        android:text="+"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/rang9" />
 
     <Button
         android:id="@+id/minus10"
@@ -512,9 +509,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView10"
         android:layout_toEndOf="@+id/textView10"
-        android:layout_alignBottom="@+id/textView10"
-        android:text="-"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/textView10" />
 
     <Button
         android:id="@+id/plus10"
@@ -523,9 +518,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/rang10"
         android:layout_toEndOf="@+id/rang10"
-        android:layout_alignBottom="@+id/rang10"
-        android:text="+"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/rang10" />
 
     <Button
         android:id="@+id/minus11"
@@ -534,9 +527,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView11"
         android:layout_toEndOf="@+id/textView11"
-        android:layout_alignBottom="@+id/textView11"
-        android:text="-"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/textView11" />
 
     <Button
         android:id="@+id/plus11"
@@ -545,9 +536,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/rang11"
         android:layout_toEndOf="@+id/rang11"
-        android:layout_alignBottom="@+id/rang11"
-        android:text="+"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/rang11" />
 
     <Button
         android:id="@+id/minus12"
@@ -556,9 +545,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView12"
         android:layout_toEndOf="@+id/textView12"
-        android:layout_alignBottom="@+id/textView12"
-        android:text="-"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/textView12" />
 
     <Button
         android:id="@+id/plus12"
@@ -567,9 +554,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/rang12"
         android:layout_toEndOf="@+id/rang12"
-        android:layout_alignBottom="@+id/rang12"
-        android:text="+"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/rang12" />
 
     <Button
         android:id="@+id/minus13"
@@ -578,9 +563,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView13"
         android:layout_toEndOf="@+id/textView13"
-        android:layout_alignBottom="@+id/textView13"
-        android:text="-"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/textView13" />
 
     <Button
         android:id="@+id/plus13"
@@ -589,9 +572,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/rang13"
         android:layout_toEndOf="@+id/rang13"
-        android:layout_alignBottom="@+id/rang13"
-        android:text="+"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/rang13" />
 
     <Button
         android:id="@+id/minus14"
@@ -600,9 +581,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView14"
         android:layout_toEndOf="@+id/textView14"
-        android:layout_alignBottom="@+id/textView14"
-        android:text="-"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/textView14" />
 
     <Button
         android:id="@+id/plus14"
@@ -611,9 +590,7 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/rang14"
         android:layout_toEndOf="@+id/rang14"
-        android:layout_alignBottom="@+id/rang14"
-        android:text="+"
-        android:textSize="10dp"/>
+        android:layout_alignBottom="@+id/rang14" />
 
     />
     </RelativeLayout>

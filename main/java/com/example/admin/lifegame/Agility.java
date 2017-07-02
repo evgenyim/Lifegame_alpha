@@ -6,7 +6,7 @@ package com.example.admin.lifegame;
 
 public class Agility {
     static String agility() {
-        int s = (int) (Math.sqrt(MainMenu.Rangs_count[2])+ Math.sqrt(MainMenu.Rangs_count[3])+Math.sqrt(MainMenu.Rangs_count[4])+Math.sqrt(MainMenu.Rangs_count[5])+Math.sqrt(MainMenu.Rangs_count[7])+Math.sqrt(MainMenu.Rangs_count[10])+Math.sqrt(MainMenu.Rangs_count[14])+Math.sqrt(MainMenu.Rangs_count[22])+Math.sqrt(MainMenu.Rangs_count[23])+Math.sqrt(MainMenu.Rangs_count[24]));
+        int s = (int) (Math.sqrt(MainMenu.Rangs_count[2])+ Math.sqrt(MainMenu.Rangs_count[3])+Math.sqrt(MainMenu.Rangs_count[4])+Math.sqrt(MainMenu.Rangs_count[5])+Math.sqrt(MainMenu.Rangs_count[7])+Math.sqrt(MainMenu.Rangs_count[13])+Math.sqrt(MainMenu.Rangs_count[20])+Math.sqrt(MainMenu.Rangs_count[21])+Math.sqrt(MainMenu.Rangs_count[22]));
         return String.valueOf(s);
     }
 }

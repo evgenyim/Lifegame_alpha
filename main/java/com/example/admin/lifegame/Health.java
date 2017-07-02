@@ -6,7 +6,7 @@ package com.example.admin.lifegame;
 
 public class Health {
     static String health() {
-        int s =  ((int) Math.sqrt(MainMenu.Rangs_count[1])+ (int) Math.sqrt(MainMenu.Rangs_count[3])+(int) Math.sqrt(MainMenu.Rangs_count[6])+(int) Math.sqrt(MainMenu.Rangs_count[10])+(int) Math.sqrt(MainMenu.Rangs_count[11])+(int) Math.sqrt(MainMenu.Rangs_count[14])+(int) Math.sqrt(MainMenu.Rangs_count[12])+(int) Math.sqrt(MainMenu.Rangs_count[13])+(int) Math.sqrt(MainMenu.Rangs_count[15])+(int) Math.sqrt(MainMenu.Rangs_count[16])+(int) Math.sqrt(MainMenu.Rangs_count[17])+(int) Math.sqrt(MainMenu.Rangs_count[26])+(int) Math.sqrt(MainMenu.Rangs_count[27]));
+        int s =  ((int) Math.sqrt(MainMenu.Rangs_count[1])+ (int) Math.sqrt(MainMenu.Rangs_count[3])+(int) Math.sqrt(MainMenu.Rangs_count[6])+(int) Math.sqrt(MainMenu.Rangs_count[10])+(int) Math.sqrt(MainMenu.Rangs_count[11])+(int) Math.sqrt(MainMenu.Rangs_count[14])+(int) Math.sqrt(MainMenu.Rangs_count[13])+(int) Math.sqrt(MainMenu.Rangs_count[15])+(int) Math.sqrt(MainMenu.Rangs_count[16]));
         return String.valueOf(s);
     }
 }

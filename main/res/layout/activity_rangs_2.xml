@@ -3,6 +3,7 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="#a6d1cde6"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
@@ -13,7 +14,8 @@
         android:layout_marginLeft="10dp"
         android:textSize="40dp"
         android:text="@string/rang"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/textView15"
@@ -24,7 +26,8 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
         android:textSize="20dp"
-        android:text="@string/rang15" />
+        android:text="@string/rang15"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/textView16"
@@ -33,7 +36,8 @@
         android:layout_below="@+id/textView15"
         android:layout_alignLeft="@+id/textView15"
         android:textSize="20dp"
-        android:text="@string/rang16" />
+        android:text="@string/rang16"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/textView17"
@@ -42,7 +46,8 @@
         android:layout_below="@+id/textView16"
         android:layout_alignLeft="@+id/textView16"
         android:textSize="20dp"
-        android:text="@string/rang17" />
+        android:text="@string/rang17"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/textView18"
@@ -51,7 +56,8 @@
         android:layout_below="@+id/textView17"
         android:layout_alignLeft="@+id/textView17"
         android:textSize="20dp"
-        android:text="@string/rang18" />
+        android:text="@string/rang18"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/textView19"
@@ -60,7 +66,8 @@
         android:layout_below="@+id/textView18"
         android:layout_alignLeft="@+id/textView18"
         android:textSize="20dp"
-        android:text="@string/rang19" />
+        android:text="@string/rang19"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/textView20"
@@ -69,7 +76,8 @@
         android:layout_below="@+id/textView19"
         android:layout_alignLeft="@+id/textView19"
         android:textSize="20dp"
-        android:text="@string/rang20" />
+        android:text="@string/rang20"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/textView21"
@@ -78,7 +86,8 @@
         android:layout_below="@+id/textView20"
         android:layout_alignLeft="@+id/textView20"
         android:textSize="20dp"
-        android:text="@string/rang21" />
+        android:text="@string/rang21"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/textView22"
@@ -87,7 +96,8 @@
         android:layout_below="@+id/textView21"
         android:layout_alignLeft="@+id/textView21"
         android:textSize="20dp"
-        android:text="@string/rang22" />
+        android:text="@string/rang22"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/textView23"
@@ -96,18 +106,9 @@
         android:layout_below="@+id/textView22"
         android:layout_alignLeft="@+id/textView22"
         android:textSize="20dp"
-        android:text="@string/rang23" />
+        android:text="@string/rang23"
+        android:textColor="#000"/>
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Back"
-        android:layout_above="@+id/textView15"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="15dp"
-        android:layout_marginStart="15dp" />
 
     <TextView
         android:id="@+id/rang15"
@@ -118,7 +119,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus15"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang16"
@@ -129,7 +131,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus16"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang17"
@@ -140,7 +143,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus17"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang18"
@@ -151,7 +155,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus18"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang19"
@@ -162,7 +167,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus19"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
 
     <TextView
@@ -174,7 +180,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus20"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang21"
@@ -185,7 +192,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus21"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang22"
@@ -196,7 +204,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus22"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/rang23"
@@ -207,7 +216,8 @@
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/minus23"
         android:textSize="20dp"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000"/>
 
     <Button
         android:id="@+id/minus15"
@@ -217,8 +227,7 @@
         android:layout_toRightOf="@+id/textView15"
         android:layout_toEndOf="@+id/textView15"
         android:layout_alignBottom="@+id/textView15"
-        android:text="-"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/plus15"
@@ -228,8 +237,7 @@
         android:layout_toRightOf="@+id/rang15"
         android:layout_toEndOf="@+id/rang15"
         android:layout_alignBottom="@+id/rang15"
-        android:text="+"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/minus16"
@@ -239,8 +247,7 @@
         android:layout_toRightOf="@+id/textView16"
         android:layout_toEndOf="@+id/textView16"
         android:layout_alignBottom="@+id/textView16"
-        android:text="-"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/plus16"
@@ -250,8 +257,7 @@
         android:layout_toRightOf="@+id/rang16"
         android:layout_toEndOf="@+id/rang16"
         android:layout_alignBottom="@+id/rang16"
-        android:text="+"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/minus17"
@@ -261,8 +267,7 @@
         android:layout_toRightOf="@+id/textView17"
         android:layout_toEndOf="@+id/textView17"
         android:layout_alignBottom="@+id/textView17"
-        android:text="-"
-        android:textSize="10dp"/>
+       />
 
     <Button
         android:id="@+id/plus17"
@@ -272,8 +277,7 @@
         android:layout_toRightOf="@+id/rang17"
         android:layout_toEndOf="@+id/rang17"
         android:layout_alignBottom="@+id/rang17"
-        android:text="+"
-        android:textSize="10dp" />
+         />
 
     <Button
         android:id="@+id/minus18"
@@ -283,8 +287,7 @@
         android:layout_toRightOf="@+id/textView18"
         android:layout_toEndOf="@+id/textView18"
         android:layout_alignBottom="@+id/textView18"
-        android:text="-"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/plus18"
@@ -294,8 +297,7 @@
         android:layout_toRightOf="@+id/rang18"
         android:layout_toEndOf="@+id/rang18"
         android:layout_alignBottom="@+id/rang18"
-        android:text="+"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/minus19"
@@ -305,8 +307,7 @@
         android:layout_toRightOf="@+id/textView19"
         android:layout_toEndOf="@+id/textView19"
         android:layout_alignBottom="@+id/textView19"
-        android:text="-"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/plus19"
@@ -316,8 +317,7 @@
         android:layout_toRightOf="@+id/rang19"
         android:layout_toEndOf="@+id/rang19"
         android:layout_alignBottom="@+id/rang19"
-        android:text="+"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/minus20"
@@ -327,8 +327,7 @@
         android:layout_toRightOf="@+id/textView20"
         android:layout_toEndOf="@+id/textView20"
         android:layout_alignBottom="@+id/textView20"
-        android:text="-"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/plus20"
@@ -338,8 +337,7 @@
         android:layout_toRightOf="@+id/rang20"
         android:layout_toEndOf="@+id/rang20"
         android:layout_alignBottom="@+id/rang20"
-        android:text="+"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/minus21"
@@ -349,8 +347,7 @@
         android:layout_toRightOf="@+id/textView21"
         android:layout_toEndOf="@+id/textView21"
         android:layout_alignBottom="@+id/textView21"
-        android:text="-"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/plus21"
@@ -360,8 +357,7 @@
         android:layout_toRightOf="@+id/rang21"
         android:layout_toEndOf="@+id/rang21"
         android:layout_alignBottom="@+id/rang21"
-        android:text="+"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/minus22"
@@ -371,8 +367,7 @@
         android:layout_toRightOf="@+id/textView22"
         android:layout_toEndOf="@+id/textView22"
         android:layout_alignBottom="@+id/textView22"
-        android:text="-"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/plus22"
@@ -382,8 +377,7 @@
         android:layout_toRightOf="@+id/rang22"
         android:layout_toEndOf="@+id/rang22"
         android:layout_alignBottom="@+id/rang22"
-        android:text="+"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/minus23"
@@ -393,8 +387,7 @@
         android:layout_toRightOf="@+id/textView23"
         android:layout_toEndOf="@+id/textView23"
         android:layout_alignBottom="@+id/textView23"
-        android:text="-"
-        android:textSize="10dp"/>
+        />
 
     <Button
         android:id="@+id/plus23"
@@ -404,7 +397,6 @@
         android:layout_toRightOf="@+id/rang23"
         android:layout_toEndOf="@+id/rang23"
         android:layout_alignBottom="@+id/rang23"
-        android:text="+"
-        android:textSize="10dp"/>
+        />
 
 </RelativeLayout>

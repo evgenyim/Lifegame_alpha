@@ -6,7 +6,7 @@ package com.example.admin.lifegame;
 
 public class Intelligence {
     static String intelligence() {
-        int s = (int) (Math.sqrt(MainMenu.Rangs_count[8])+ Math.sqrt(MainMenu.Rangs_count[9])+Math.sqrt(MainMenu.Rangs_count[18])+Math.sqrt(MainMenu.Rangs_count[20])+Math.sqrt(MainMenu.Rangs_count[21])+Math.sqrt(MainMenu.Rangs_count[28])+Math.sqrt(MainMenu.Rangs_count[29])+Math.sqrt(MainMenu.Rangs_count[30]));
+        int s = (int) (Math.sqrt(MainMenu.Rangs_count[8])+ Math.sqrt(MainMenu.Rangs_count[9])+Math.sqrt(MainMenu.Rangs_count[17]*2)+Math.sqrt(MainMenu.Rangs_count[19])+Math.sqrt(MainMenu.Rangs_count[12]));
         return String.valueOf(s);
     }
 }

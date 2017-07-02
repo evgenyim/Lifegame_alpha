@@ -18,23 +18,36 @@
     <string name="rang4">Готовка</string>
     <string name="rang5">Жонглирование</string>
     <string name="rang6">Зарядка</string>
-    <string name="rang7">Муз. инструменте</string>
+    <string name="rang7">Муз. инструмент</string>
     <string name="rang8">Иностранный язык</string>
-    <string name="rang9">Йога</string>
+    <string name="rang9">Интелл. игры</string>
     <string name="rang10">Контрастный душ</string>
     <string name="rang11">Отжимания</string>
-    <string name="rang12">Планка</string>
+    <string name="rang12">Чтение книг</string>
     <string name="rang13">Подвижный спорт</string>
     <string name="rang14">Подтягивания</string>
     <string name="rang15">Пресс</string>
     <string name="rang16">Приседания</string>
     <string name="rang17">Программирование</string>
-    <string name="rang18">Классическая музыка</string>
+    <string name="rang18">Музыка</string>
     <string name="rang19">Посещение лекций</string>
     <string name="rang20">Рисование</string>
     <string name="rang21">Рукоделие</string>
     <string name="rang22">Танцы</string>
     <string name="rang23">Театр</string>
-
+    <string name="achievments">Достижения</string>
+    <string name="achievments0">Заблокировано</string>
+    <string name="achievments1">Красавчик</string>
+    <string name="achievments2">Здоровяк</string>
+    <string name="achievments3">Искусствовед</string>
+    <string name="achievments4">Полиглот</string>
+    <string name="achievments5">Разносторонний</string>
+    <string name="achievments6">Спортсмен</string>
+    <string name="achievments7">Интеллектуал</string>
+    <string name="achievments8">Просветленный</string>
+    <string name="achievments9">Мастер игры</string>
+    <string name="achmain">Достижения</string>
+    <string name="charmain">Характеристики</string>
+    <string name="rangsmain">Ранги</string>
 
 </resources>
