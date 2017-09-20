@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.admin.lifegame">
+    package="com.admin.lifegame">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icon"
         android:label="LifeGame"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".Player" />
-        <activity android:name=".Rangs" />
-        <activity android:name=".Rangs_2" />
-        <activity android:name=".MainMenu">
+        <activity
+            android:name=".Player"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Rangs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Rangs_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainMenu"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Achievments"></activity>
+        <activity
+            android:name=".Achievments"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Quest"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

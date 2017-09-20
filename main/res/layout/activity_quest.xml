@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#a6d1cde6"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="40sp"
+        android:text="@string/questmain"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/quest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/quest1"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/task1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quest1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/task1"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/task2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/task1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/task2"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/task3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/task2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/task3"
+        android:textColor="#000"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_below="@id/task3"
+        android:layout_centerHorizontal="true"
+        android:max="3"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressTask1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/task1"
+        android:layout_below="@id/quest1"/>
+
+    <ProgressBar
+        android:id="@+id/progressTask2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/task2"
+        android:layout_below="@id/task1"/>
+
+    <ProgressBar
+        android:id="@+id/progressTask3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/task3"
+        android:layout_below="@id/task2"/>
+
+
+
+</RelativeLayout>

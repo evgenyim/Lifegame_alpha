@@ -24,7 +24,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="@string/ch1" />
 
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/textView1"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="@string/ch2" />
 
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView2"
         android:layout_below="@+id/textView2"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="@string/ch3" />
 
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView3"
         android:layout_below="@+id/textView3"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="@string/ch4" />
 
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView4"
         android:layout_below="@+id/textView4"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="@string/ch5" />
 
@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView5"
         android:layout_below="@+id/textView5"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="@string/ch6" />
 
@@ -84,7 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView6"
         android:layout_below="@+id/textView6"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="@string/ch7" />
 
@@ -94,7 +94,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView7"
         android:layout_below="@+id/textView7"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="@string/ch8" />
 
@@ -104,7 +104,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView8"
         android:layout_below="@+id/textView8"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="@string/ch9" />
 
@@ -114,7 +114,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView9"
         android:layout_below="@+id/textView9"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="@string/ch10" />
 
@@ -126,7 +126,7 @@
         android:layout_toEndOf="@+id/textView1"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView1"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="0" />
 
@@ -138,7 +138,7 @@
         android:layout_toEndOf="@+id/textView2"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView2"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="0" />
 
@@ -150,7 +150,7 @@
         android:layout_toEndOf="@+id/textView3"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView3"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="0" />
 
@@ -162,7 +162,7 @@
         android:layout_toEndOf="@+id/textView4"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView4"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="0" />
 
@@ -174,7 +174,7 @@
         android:layout_toEndOf="@+id/textView5"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView5"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="0" />
     <TextView
@@ -185,7 +185,7 @@
         android:layout_toEndOf="@+id/textView6"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView6"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="0" />
     <TextView
@@ -196,7 +196,7 @@
         android:layout_toEndOf="@+id/textView7"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView7"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="0" />
     <TextView
@@ -207,7 +207,7 @@
         android:layout_toEndOf="@+id/textView8"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView8"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="0" />
     <TextView
@@ -218,7 +218,7 @@
         android:layout_toEndOf="@+id/textView9"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView9"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="0" />
     <TextView
@@ -229,8 +229,98 @@
         android:layout_toEndOf="@+id/textView10"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/textView10"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#000"
         android:text="0" />
+
+    <Button
+        android:id="@+id/info1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/ch1"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/ch1"
+        android:layout_toRightOf="@+id/ch1" />
+
+    <Button
+        android:id="@+id/info2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/ch2"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/ch2"
+        android:layout_toRightOf="@+id/ch2" />
+    <Button
+        android:id="@+id/info3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ch3"
+        android:layout_toEndOf="@+id/ch3"
+        android:layout_alignBottom="@+id/ch3"
+        />
+    <Button
+        android:id="@+id/info4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ch4"
+        android:layout_toEndOf="@+id/ch4"
+        android:layout_alignBottom="@+id/ch4"
+        />
+    <Button
+        android:id="@+id/info5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ch5"
+        android:layout_toEndOf="@+id/ch5"
+        android:layout_alignBottom="@+id/ch5"
+        />
+    <Button
+        android:id="@+id/info6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ch6"
+        android:layout_toEndOf="@+id/ch6"
+        android:layout_alignBottom="@+id/ch6"
+        />
+    <Button
+        android:id="@+id/info7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ch7"
+        android:layout_toEndOf="@+id/ch7"
+        android:layout_alignBottom="@+id/ch7"
+        />
+    <Button
+        android:id="@+id/info8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ch8"
+        android:layout_toEndOf="@+id/ch8"
+        android:layout_alignBottom="@+id/ch8"
+        />
+    <Button
+        android:id="@+id/info9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ch9"
+        android:layout_toEndOf="@+id/ch9"
+        android:layout_alignBottom="@+id/ch9"
+        />
+    <Button
+        android:id="@+id/info10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ch10"
+        android:layout_toEndOf="@+id/ch10"
+        android:layout_alignBottom="@+id/ch10"
+        />
 
 </RelativeLayout>

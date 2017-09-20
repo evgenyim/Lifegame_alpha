@@ -49,5 +49,11 @@
     <string name="achmain">Достижения</string>
     <string name="charmain">Характеристики</string>
     <string name="rangsmain">Ранги</string>
+    <string name="questmain">Задания</string>
+    <string name="queststay">Осталось:</string>
+    <string name="quest1">Новичок</string>
+    <string name="task1">Повысь 3 разных ранга</string>
+    <string name="task2">Повысь зарядку на 3</string>
+    <string name="task3">Получи силу = 1</string>
 
 </resources>
